@@ -9,7 +9,7 @@ class ClientColyseusContextProvider extends Component {
 	
     state = {
 		isAuth: false,
-		clientColyseus: new Colyseus.Client('wss://' + "syntaxmapfrontmain.herokuapp.com"),
+		clientColyseus: new Colyseus.Client('ws://' + "syntaxmapfrontmain.herokuapp.com"),
 		room: null,
         isMaster: false,
         isStarted: false,
