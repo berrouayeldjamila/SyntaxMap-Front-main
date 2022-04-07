@@ -7,7 +7,7 @@ class ClientColyseus extends React.Component {
 
   constructor(props) {
     super(props);
-  this.client = new Colyseus.Client('wss://' + "linguistic-com-api-qa.herokuapp.com");
+  this.client = new Colyseus.Client('wss://' + "syntaxmapfrontmain.herokuapp.com");
     this.room = null;
       
     this.state = {
