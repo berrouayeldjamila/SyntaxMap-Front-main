@@ -1,6 +1,6 @@
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {
-        await browser.url(`https://linguistic-com.herokuapp.com`);
+        await browser.url(`https://syntaxmapfrontmain.herokuapp.com/`);
         /*
         await $('#username').setValue('tomsmith');
         await $('#password').setValue('SuperSecretPassword!');
